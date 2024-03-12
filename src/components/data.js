@@ -23,7 +23,6 @@ const projects = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./project3.jpg",
       link: "https://jsbootcamp.com",
-      skills: "React, CSS"
     },
     {
       title: "Epic Todo App",
@@ -32,7 +31,6 @@ const projects = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./project2.jpg",
       link: "https://pythonbootcamp.com",
-      skills: "React, CSS"
 
 
     },
