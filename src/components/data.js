@@ -1,36 +1,36 @@
 const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Recipe app",
+      subtitle: "React",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./project3.jpg",
-      link: "https://reactbootcamp.com",
+      link: "https://recipe-app-taupe-nu.vercel.app/",
       
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Simple tours app",
+      subtitle: "React ",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: './proj1.jpg',
-      link: "https://reedbarger.com",
+      link: "https://simple-tours-app-eta.vercel.app/",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Blogys ",
+      subtitle: "React ",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./project3.jpg",
-      link: "https://jsbootcamp.com",
+      link: "https://jelys-blogify-website.vercel.app/",
     },
     {
-      title: "Epic Todo App",
+      title: "Simple menu",
       subtitle: "React Hooks",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./project2.jpg",
-      link: "https://pythonbootcamp.com",
+      link: "https://food-filtering-app.vercel.app/",
 
 
     },
