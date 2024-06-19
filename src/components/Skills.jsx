@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 const Skills = () => {
     const skills = [ 'HTML','CSS','React.js', 'JavaScript','Azure','Express.js','MSSQL','Tailwindcss']
   return (
-    <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
+    <section id="skills" className='pt-20'>
+      <div className="container px-5 py-10 mx-auto ">
         <div className="text-center mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-orange-600 mb-4">
             Skills &amp; Technologies
