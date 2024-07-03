@@ -20,7 +20,7 @@ const Navbar = () => {
           </a>
         </nav>
         <a
-          href="#contact"
+          href="https://drive.google.com/file/d/15sJCjIXCeFNyvYfuvjxMUEjSbwTwQ4Jh/view?usp=sharing"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none text-orange-600 hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
           Resume
         </a>

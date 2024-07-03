@@ -2,9 +2,9 @@ import portfolioImg from '../assets/images/portfolioImg.jpg'
 
 const About = () => {
   return (
-    <section id='about' >
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+    <section id='about' className="h-screen">
+      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center h-full">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center h-full justify-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
             Hi, I'm Jelimo.
             <br className="hidden lg:inline-block" />I love to build amazing
@@ -29,10 +29,11 @@ const About = () => {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
+        <img
+            className="object-cover object-center rounded mt-20 w-200"
             alt="hero"
-            src={portfolioImg} 
+            src={portfolioImg}
+            style={{ maxHeight: '75vh' }}
           />
         </div>
       </div>
