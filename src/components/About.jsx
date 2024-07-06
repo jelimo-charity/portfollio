@@ -4,12 +4,12 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen bg-cover bg-center bg-no-repeat flex items-center"
+      className="min-h-screen bg-cover bg-center bg-gray-950 bg-no-repeat flex items-center"
       style={{ backgroundImage: `url(${developerActivity})` }}
     >
       <div className="container mx-auto px-5 py-10 md:py-20 flex flex-col md:flex-row items-center justify-center h-full">
         <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center justify-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-orange-600">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-green-700">
             Hi, I'm Jelimo.
           </h1>
           <p className="mb-8 leading-relaxed text-white">
@@ -24,7 +24,7 @@ const About = () => {
           <div className="flex justify-center">
             <a
               href="mailto:charityjelimo893@gmail.com"
-              className="inline-flex text-white bg-orange-600 border-0 py-2 px-6 focus:outline-none hover:bg-orange-400 rounded text-lg"
+              className="inline-flex text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-orange-400 rounded text-lg"
             >
               Get in touch
             </a>

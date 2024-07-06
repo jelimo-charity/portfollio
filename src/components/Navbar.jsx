@@ -1,25 +1,34 @@
+import { useState } from 'react';
+import { FiMenu, FiX } from 'react-icons/fi'; // Importing menu and close icons
+
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <header className="bg-slate-950 md:sticky top-0 z-10">
+    <header className=" bg-gray-950 md:sticky top-0 z-10 border-b-2 border-b-green-700">
       <div className="container mx-auto p-5 flex flex-col md:flex-row items-center">
         <div className="w-full flex justify-between items-center mb-4 md:mb-0">
-          <a href="#about" className="title-font font-medium text-white text-4xl">
+          <a href="#about" className="title-font font-medium text-green-50 text-4xl">
             Charity Jelimo
           </a>
+          <button className="md:hidden text-white text-3xl" onClick={toggleMenu}>
+            {isOpen ? <FiX /> : <FiMenu />}
+          </button>
         </div>
-        <nav className="w-full flex flex-row md:flex-row md:justify-center md:space-x-10 items-center text-base">
-          <a href="#projects" className="text-orange-600  text-2xl  hover:text-white mb-2 md:mb-0">
+        <nav className={`w-full md:flex md:flex-row md:justify-center md:space-x-10 items-center text-base ${isOpen ? 'block' : 'hidden'}`}>
+          <a href="#projects" className="text-green-500 text-xl hover:text-white mb-2 md:mb-0">
             Projects
           </a>
-          <a href="#skills" className="text-orange-600 ml-5  text-2xl hover:text-white mb-2 md:mb-0">
+          <a href="#skills" className="text-green-500 ml-5 text-xl hover:text-white mb-2 md:mb-0">
             Skills
           </a>
-          {/* <a href="#contact" className="text-orange-600 hover:text-white mb-2 md:mb-0">
-            Contact
-          </a> */}
           <a
             href="https://drive.google.com/file/d/15sJCjIXCeFNyvYfuvjxMUEjSbwTwQ4Jh/view?usp=sharing"
-            className="text-orange-600 hover:text-white ml-5 mb-2 md:mb-0 text-2xl"
+            className="text-green-500 hover:text-white ml-5 mb-2 md:mb-0 text-xl"
           >
             Resume
           </a>
