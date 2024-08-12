@@ -1,7 +1,7 @@
 const projects = [
     {
-      title: "Recipe app",
-      subtitle: "React",
+      title: "BlaZe - Car rental application",
+      subtitle: "React, TypeScript, Postgresql, Hono",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./project3.jpg",
@@ -9,7 +9,7 @@ const projects = [
       
     },
     {
-      title: "Simple tours app",
+      title: "TaskFlowz - Task management application",
       subtitle: "React ",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
@@ -25,8 +25,8 @@ const projects = [
       link: "https://jelys-blogify-website.vercel.app/",
     },
     {
-      title: "Simple menu",
-      subtitle: "React Hooks",
+      title: "Restaurant management system API",
+      subtitle: "Hono, Drizzle ORM, Postgresql, TypeScript",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "./project2.jpg",

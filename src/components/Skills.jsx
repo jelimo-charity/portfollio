@@ -13,11 +13,11 @@ const Skills = () => {
            Discover the key competencies that shape my professional profile.
           </p>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex  flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
             <div key={skill} className="p-2  w-100">
-              <div className="bg-base-200 rounded flex p-4 h-full items-center">
-                <span className="title-font font-medium text-white">
+              <div className="bg-gray-900 rounded flex p-4 h-full items-center">
+                <span className="title-font font-medium  text-white">
                   {skill}
                 </span>
               </div>
