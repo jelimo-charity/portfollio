@@ -4,8 +4,8 @@ const projects = [
       subtitle: "React, TypeScript, Postgresql, Hono",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project3.jpg",
-      link: "https://recipe-app-taupe-nu.vercel.app/",
+      image: "./carental.png",
+      link: "https://ashy-sky-0e71c8303.5.azurestaticapps.net/",
       
     },
     {
