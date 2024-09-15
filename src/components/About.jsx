@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen bg-cover bg-center bg-gray-950 bg-no-repeat flex justify-center items-center"
+      className="min-h-screen bg-cover bg-center bg-gray-900 bg-no-repeat flex justify-center items-center"
     >
       <div className="container mx-auto px-5 md:py-20 flex flex-col md:flex-row items-center justify-center h-full">
         {/* Image container */}
